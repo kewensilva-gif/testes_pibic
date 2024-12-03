@@ -5,11 +5,11 @@ import numpy as np
 import requests
 
 # url do esp
-url = 'http://192.168.1.14/cam-hi.jpg'
+url = 'http://192.168.1.14/cam-lo.jpg'
 cv2.namedWindow("EspCam live", cv2.WINDOW_AUTOSIZE)
 
 # endpoint da API
-server_url = 'http://localhost:8000/api/imagens'
+server_url = 'http://localhost:8080/imagens'
 
 while True:
     try:
